@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.nuage{
+.nuages{
     background-image: url('/images/w/hz.webp');
 }
-/* .cielcoucher{
-    background-image: url('/images/w/savane.png');
+.nuageBleu{
+    background-image: url('/images/w/enver.png');
     background-repeat: no-repeat;
-} */
+    background-position: top;
+}
