@@ -13,7 +13,7 @@ export  function Header() {
     return (
         <header className="h-screen bg-black flex items-center justify-center nuage relative ">
             <motion.img
-                src="public\images\w\lune.png"
+                src="/images/w/lune.png"
                 alt="Lune"
                 className="w-20 h-20 absolute top-12 right-5"
                 initial={{ y: -100, opacity: 0 }}
@@ -26,7 +26,7 @@ export  function Header() {
             <p className="font-sans text-5xl font-bold text-left absolute left-0 text-blue-200 sm:text-base top-5">Joyeux anniversaire </p>
 
             <motion.img 
-            src="public\images\w\ch.png "
+            src="/images/w/ch.png "
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 1, opacity: 1 }}
             transition={{ duration: 2.5, ease: "easeOut" }}
@@ -37,7 +37,7 @@ export  function Header() {
 
 
         <div className="text-pretty border-none  w-80 p-5 rounded-lg  absolute left-0 bottom-0">
-            <img src="public\images\w\nuageRose.png" alt="nuageRose" className="w-48"/>
+            <img src="/images/w/nuageRose.png" alt="nuageRose" className="w-48"/>
         <p>
         Joyeux anniversaire Choukria ! Qu &apos;Allah te bénisse en ce jour spécial 
      et remplisse ta vie de bonheur et de prospérité. Que chaque moment
@@ -53,27 +53,4 @@ export  function Header() {
     );
 }
 
-// export function Header(){
-   
-//         const { scrollYProgress } = useScroll(); // Valeur de progression du scroll
-//         const scale = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
-//     return(
-//         <>
-//         <div className=" bg-cover bg-no-repeat bg-center w-full h-screen sm:h-96 md:h-screen bg-photofunky  "  >
-//         <motion.div className="bg-lopo sc"
-//            style={{
-//             scale: scale,
-//             // backgroundImage: "url('/images/w/lune.png') ",
-//             width: 100,
-//             height: 100,
-//             borderRadius: "50%",
-//             margin: "50px auto",
-//           }}
-//         >
-     
-//             {/* <img src="/images/w/lune.png" alt="lune" /> */}
-//         </motion.div>           
-//         </div>
-//         </>
-//     )
-// }
+

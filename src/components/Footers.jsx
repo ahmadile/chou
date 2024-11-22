@@ -78,19 +78,26 @@ export default function Footer() {
       />
 
       {/* Boîte de texte */}
-      <div className="relative z-10 bg-white/90 shadow-lg w-11/12 sm:w-9/12 md:w-2/3 lg:w-1/2 p-5 rounded-lg mx-auto mt-10">
+      <div className="relative z-10  shadow-2xl w-11/12 sm:w-9/12 md:w-2/3 lg:w-1/2 p-5 rounded-lg mx-auto mt-10 translate-y-40 bg-inherit  ">
         <img
           src="/images/w/bazinChouk.png"
           alt="Bazin"
           className="float-right w-20 sm:w-24 md:w-32 h-auto ml-4 mb-2"
         />
-        <p className="text-gray-800 text-sm sm:text-base lg:text-lg leading-relaxed">
-          En ce jour merveilleux, que chaque rayon du soleil levant éclaire ton chemin et que la lumière divine d'Allah guide chacun de tes pas. 
-          Tout comme le soleil apporte chaleur et vie à notre monde, que ta présence illumine nos vies de bonheur et de bonté. 
-          Nous prions pour que chaque jour qui se lève t'apporte de nouvelles bénédictions, de la sagesse et une foi toujours plus forte. 
-          Qu'Allah te protège et veille sur toi aujourd'hui et pour toujours. <strong>Amine.</strong>
+        <p className="text-cyan-50  text-base  sm:text-base   lg:text-lg   ">
+        À l &apos;image du soleil couchant qui peint le ciel de couleurs magnifiques, 
+        puisse ta vie être remplie de moments précieux et de bénédictions.
+         Que la sérénité et la paix qui accompagnent la fin de chaque journée
+          t&apos;entourent toujours, et que la lumière d &apos;Allah brille constamment sur
+           ton chemin. Nous prions pour que chaque soir soit un rappel de la 
+           grâce et de la miséricorde d &apos;Allah, et que ton cœur soit toujours
+            guidé par sa lumière divine.
+
+        Qu &apos;Allah te protège et te comble de ses bienfaits.
+           <strong>Amine.</strong>
         </p>
       </div>
+      
     </footer>
   );
 }
