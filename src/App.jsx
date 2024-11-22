@@ -12,11 +12,13 @@ function App() {
     <>
      <Header/>
     <Article/>
-
-    
-
     <Footer/>
-
+   
+    <footer className="footer footer-center bg-base-300 text-base-content p-4">
+  <aside>
+    <p> {new Date().getFullYear()} - Realiser de ❤️ Deenka</p>
+  </aside>
+</footer>
       
     </>
   )
