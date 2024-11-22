@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nuage{
+    background-image: url('/images/w/hz.webp');
+}
+/* .cielcoucher{
+    background-image: url('/images/w/savane.png');
+    background-repeat: no-repeat;
+} */
