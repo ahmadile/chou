@@ -8,11 +8,7 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'photofunky': "url('public/images/w/hz.webp')",
-        
-        'nuage':"url"('public/images/w/enver.png')
-      }
+      
     },
   },
   plugins: [
